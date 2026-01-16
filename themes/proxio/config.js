@@ -7,12 +7,11 @@ const CONFIG = {
 
   // 英雄区块导航
   PROXIO_HERO_ENABLE: true, // 开启英雄区
-  PROXIO_HERO_TITLE_1: '学习是思考、打磨、谅解也是生活', // 英雄区文字
+  PROXIO_HERO_TITLE_1: '学习是思考、是打磨、是谅解也是生活', // 英雄区文字
   PROXIO_HERO_TITLE_2: '通过记录，学会复盘。通过欲望，学会控制', // 英雄区文字
   // 英雄区两个按钮，如果TEXT留空则隐藏按钮
-  PROXIO_HERO_BUTTON_1_TEXT: '开始体验', // 英雄区按钮
-  PROXIO_HERO_BUTTON_1_URL:
-    'https://docs.tangly1024.com/article/vercel-deploy-notion-next', // 英雄区按钮
+  PROXIO_HERO_BUTTON_1_TEXT: '', // 英雄区按钮
+  PROXIO_HERO_BUTTON_1_URL:'', // 英雄区按钮
   PROXIO_HERO_BUTTON_2_TEXT: '', // 英雄区按钮
   PROXIO_HERO_BUTTON_2_URL: '', // 英雄区按钮
   PROXIO_HERO_BUTTON_2_ICON: '', // 英雄区按钮2的图标，不需要则留空
@@ -70,19 +69,19 @@ const CONFIG = {
   // 生涯内容卡牌 ，title是标题 ，bio是备注，text是详情
   PROXIO_CAREERS: [
     {
-      title: '中电信人工智能科技公司',
+      title: '中电信人工智能科技有限公司',
       bio: '2023-2025',
-      text: 'As a freelance architect, I worked on a range of residential and commercial projects, balancing form and function. I collaborated with clients and contractors to transform concepts into reality, ensuring each design was both aesthetically pleasing and structurally sound.'
+      text: '中电信人工智能科技（北京）有限公司（以下简称“AI公司”）是中国电信开展人工智能业务的科技型、能力型、平台型专业公司，以央企领先、世界一流为目标，强化科技攻关，对内对外提供高质量的人工智能产品与平台服务，积极赋能千行百业，助力数字经济发展。AI公司以打造万级AI算法舱为研发目标、以成为百亿级人工智能服务商为业务发展目标，依托自有算法及设备打造多场景、多应用、可复制的标准产品和平台，进一步强化大数据和AI领域关键核心技术攻关，持续提升大数据和AI研发创新和运营能力。'
     },
     {
       title: '全友家私销售有限公司',
       bio: '2021-2023',
-      text: 'At Spotify, I helped shape innovative features for millions of users globally. My focus was on creating seamless music discovery experiences, enhancing user interfaces, and optimizing cross-platform navigation, which led to an improved product flow and increased user satisfaction.'
+      text: '成都市全友家私销售有限公司成立于2008年10月9日，系全友家私有限公司持股5%的控股子公司，注册地位于成都市青羊区成飞大道333号。企业主营全屋定制、成品家具、卫浴洁具等12大类家居产品，形成覆盖10余种风格系列、8大空间覆盖、全龄段产品的完整解决方案。'
     },
     {
-      title: '兴久盛科技有限公司',
+      title: '成都兴玖盛网络科技有限公司',
       bio: '2019-2021',
-      text: 'Now I design user-centric products that align with client visions. As a freelance product designer, I collaborate with startups and established companies, crafting solutions that elevate user experiences and increase engagement across both digital and physical interfaces.'
+      text: '成都兴玖盛网络科技有限公司于2018年03月08日成立。法定代表人陈洁,公司经营范围包括：计算机软硬件、网络技术开发、技术咨询、技术服务、技术转让；网页设计；数据处理及存储服务；信息系统集成；农业技术、生物技术、新材料、环保节能技术开发、技术推广；新能源技术开发；销售：计算机软硬件、通讯设备、电子产品、仪器仪表、办公用品等。'
     }
   ],
 
@@ -106,7 +105,7 @@ const CONFIG = {
         'https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F22de3fcb-d90d-4271-bc01-f815f476122b%2F4FE0A0C0-E487-4C74-BF8E-6F01A27461B8-14186-000008094BC289A6.jpg?table=collection&id=a320a2cc-6ebe-4a8d-95cc-ea94e63bced9&width=200',
       PROXIO_TESTIMONIALS_ITEM_NICKNAME: '赵X伟',
       PROXIO_TESTIMONIALS_ITEM_DESCRIPTION: '某运营商智能公司AI产品负责人',
-      PROXIO_TESTIMONIALS_ITEM_URL: ''
+      PROXIO_TESTIMONIALS_ITEM_URL: 'https://www.baidu.com/'
     },
     {
       PROXIO_TESTIMONIALS_ITEM_TEXT:
