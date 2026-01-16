@@ -72,7 +72,7 @@ const SearchInput = ({ currentTag, keyword, cRef }) => {
             : `${locale.SEARCH.ARTICLES}`
         }
         className={
-          'outline-none w-full text-sm pl-4 transition focus:shadow-lg font-light leading-10 text-black bg-gray-100 dark:bg-gray-900 dark:text-white'
+          'ooutline-none w-full text-sm pl-4 transition focus:shadow-[0_0_0_4px_rgba(59,130,246,0.2)] font-light leading-7 text-black bg-gray-100 dark:bg-gray-900 dark:text-white rounded-lg'
         }
         onKeyUp={handleKeyUp}
         onCompositionStart={lockSearchInput}
